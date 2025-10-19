@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Models - Mercedes Benz Explorer</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <img src="images/mercedes-logo.png" alt="Mercedes Logo">
+      <h1>Mercedes Benz Explorer</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="models.html">Models</a>
+    </nav>
+  </header>
+
+  <!-- Model Options -->
+  <main class="model-page">
+    <h2>Explore Models</h2>
+    <div class="model-options">
+      <button onclick="showModel('eclass')">E-Class</button>
+      <button onclick="showModel('sclass')">S-Class</button>
+      <button onclick="showModel('cclass')">C-Class</button>
+      <button onclick="showModel('aclass')">A-Class</button>
+      <button onclick="showModel('gwagon')">G-Wagon</button>
+      <button onclick="showModel('cla')">CLA</button>
+    </div>
+
+    <!-- Model Details -->
+    <div id="model-detail">
+      <h3>Select a model to see details</h3>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Mercedes Benz Explorer</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
