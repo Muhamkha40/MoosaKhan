@@ -1,0 +1,91 @@
+/* Global Styles */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 14px 24px;
+}
+.site-header .logo { display:flex; align-items:center; gap:12px; }
+.site-header img { width:48px; height:auto; }
+.main-nav a { color: #fff; margin-left:16px; text-decoration:none; }
+.main-nav a:hover { color: gray; }
+
+/* Landing Section */
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+}
+.landing-text { width: 50%; }
+.landing-image img { width: 500px; max-width: 100%; border-radius: 10px; }
+
+/* Popular Models */
+.popular-models { padding:40px 20px; background:#f6f6f6; text-align:center; }
+.model-cards { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; margin-top:20px; }
+.card { width:250px; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.12); overflow:hidden; }
+.card img { width:100%; display:block; }
+.card h3 { margin:12px; font-family:'Crimson Text', serif; }
+
+/* Sections Drawbacks, Contact, About */
+section { padding: 40px 20px; }
+section h2 { font-family: 'Crimson Text', serif; margin-bottom: 12px; }
+
+/* Footer */
+.site-footer { background:#111; color:#fff; text-align:center; padding:18px; margin-top:30px; }
+
+/* Models Page */
+.model-page { padding:32px; text-align:center; }
+.model-options button {
+  margin:8px;
+  padding:10px 16px;
+  cursor:pointer;
+  border:none;
+  background:#003366;
+  color:white;
+  border-radius:6px;
+  font-weight:600;
+}
+.model-options button:hover { background:#0055aa; }
+#model-detail { margin-top:20px; padding:20px; border:1px solid #ccc; border-radius:8px; }
+.site-footer {
+  background: #111;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-about h3 {
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 6px;
+}
+
+.contact-about p {
+  margin: 2px 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
